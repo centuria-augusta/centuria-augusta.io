@@ -96,7 +96,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-	background-color: rgba(0, 0, 0,0.9);
+	background-color: #212529
 }
 
 #mainNav .navbar-toggler {
@@ -139,11 +139,12 @@ img::-moz-selection {
 
 @media (min-width:992px) {
 	#mainNav {
-		padding-top: 5px;
-		padding-bottom: 5px;
+		padding-top: 25px;
+		padding-bottom: 25px;
 		-webkit-transition: padding-top .3s, padding-bottom .3s;
 		transition: padding-top .3s, padding-bottom .3s;
 		border: none;
+		background-color: transparent
 	}
 	#mainNav .navbar-brand {
 		font-size: 1.75em;
@@ -156,7 +157,7 @@ img::-moz-selection {
 	#mainNav.navbar-shrink {
 		padding-top: 0;
 		padding-bottom: 0;
-		background-color: rgba(0, 0, 0,0.9)
+		background-color: #212529
 	}
 	#mainNav.navbar-shrink .navbar-brand {
 		font-size: 1.25em;
@@ -363,7 +364,7 @@ header.masthead .intro-text .intro-heading {
 	margin-left: 35px;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
-	background-color: rgba(0,0,0, 0.9)
+	background-color: #212529
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -372,7 +373,7 @@ header.masthead .intro-text .intro-heading {
 	height: 75px;
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
-	background-color: rgba(0,0,0, 0.9)
+	background-color: #212529
 }
 
 .timeline {
@@ -584,7 +585,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-	background-color: rgba(0,0,0, 0.9);
+	background-color: #212529;
 	background-image: url(../img/contact_2.jpg);
 	background-repeat: no-repeat;
 	background-position: center
@@ -642,8 +643,8 @@ section#contact :-ms-input-placeholder {
 }
 
 footer {
-  padding: 25px 0;
-  text-align: center;
+	padding: 25px 0;
+	text-align: center
 }
 
 footer span.copyright {
@@ -676,7 +677,7 @@ ul.social-buttons li a {
 	color: #fff;
 	border-radius: 100%;
 	outline: 0;
-	background-color: rgba(0,0,0, 0.9)
+	background-color: #212529
 }
 
 ul.social-buttons li a:active,

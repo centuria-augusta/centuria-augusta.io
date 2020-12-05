@@ -1,34 +1,893 @@
----
-layout: default
-title: Centuria Augusta
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="img/favicon.png" />
+
+  <title>Centuria Augusta</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/centuria.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <img width="30" src="img/logos/centuria.png" hspace="10">
+      <a class="navbar-brand js-scroll-trigger ml-auto" href="#page-top" style="font-size:100%">CENTURIA AUGUSTA</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#historia">História</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#hierarquia">Hierarquia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#traje">Traje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#membros">Membros</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contacta-nos</a>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <!-- Header -->
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
         <img width="200" src="img/logos/centuria.png" vspace="30">
-        <div class="text-center" style="font-family:Roboto; font-size:110%; padding-bottom: 30px;"> {{ site.data.sobre.main }}</div>
+        <div class="text-center" style="font-family:Roboto; font-size:110%; padding-bottom: 30px;"> Formada a 19 de dezembro de 2001, a Centuria Augusta é uma confraria de Praxe da Universidade do Minho com os objetivos de fazer valer os valores da Praxe, da arte de bem praxar e bem trajar.</div>
+        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#historia">Sabe Mais</a> -->
       </div>
     </div>
   </header>
 
-  <!-- Sobre -->
-  <section id="sobre">
+  <!-- História -->
+  <section id="historia">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sobre.sobre_title }}</h2>
+          <h2 class="section-heading text-uppercase">História</h2>
+          <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
         </div>
       </div>
-      {% for x in site.data.sobre.sobre %}
-      <div class="row text-center" style="justify-content: center; align-items: center;">
-        <span class="fa-stack fa-4x">
-          <img src="{{ x.icon }}" width="140">
-        </span>
-        <h4 class="service-heading">{{ x.title }}</h4>
-        <p class="text-muted" style="font-family:'Roboto'; text-align: justify;text-align-last: center;"> {{ x.text }}
-        </p>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
+            <img src="img/icons/sobre-nos.png" width="140">
+          </span>
+          <h4 class="service-heading">Sobre Nós</h4>
+          <p class="text-muted" style="font-family:'Roboto'">A Centuria Augusta
+            é uma confraria da Academia Minhota que zela pelos valores da Praxe
+            da mesma. Conta com membros provenientes de vários cursos da
+            Academia, estando aberta a qualquer membro da academia de qualquer
+            grau hierárquico desde que este compartilhe dos mesmos ideais e
+            princípios que regem toda a ideologia da confraria.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> -->
+            <img src="img/icons/bebida.png" width="140">
+          </span>
+          <h4 class="service-heading">Bebida de Eleição</h4>
+          <p class="text-muted" style="font-family:'Roboto'">Com mais de 130
+            anos de história, dotada de um conjunto de caraterísticas ímpares,
+            a Macieira tem acompanhado as várias gerações ao longo dos anos.
+            Desde a sua fundação, em 2001, a Macieira tornou-se na bebida
+            oficial da confraria, tornando-se indispensável em todos os seus
+            eventos oficiais, podendo-se mesmo afirmar que uma relação
+            inseparável foi construída entre ambos. Impulsionadora e propulsora
+            de momentos inesquecíveis, aconchegante nas noites frias de inverno
+            e brisa de ar fresco no quente dilacerante do verão, companheira
+            inseparável de todos os momentos, a Macieira tornou-se num dos
+            pilares da Centuria Augusta.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-lock fa-stack-1x fa-inverse"></i> -->
+            <img src="img/icons/casa.png" width="140">
+          </span>
+          <h4 class="service-heading">A Nossa Casa</h4>
+          <p class="text-muted" style="font-family:'Roboto'">
+            A nossa casa, a Universidade do Minho, foi fundada em 1973, num
+            plano que consagrou várias novas instituições de ensino superior
+            pelo país. A cerimónia de abertura só se deu, contudo, um ano
+            depois, em 1974, a 17 de fevereiro. O primeiro dia de aulas ocorreu
+            apenas em dezembro de 1975 e desde então tem cimentado o seu legado
+            na área do conhecimento e do saber como uma das mais prestigiadas e
+            modernas universidades a nível nacional e europeu.
+          </p>
+        </div>
       </div>
-      {% endfor %}
     </div>
   </section>
+
+  <!-- Hierarquia -->
+  <section class="bg-light" id="hierarquia">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Hierarquia Interna</h2>
+          <h3 class="section-subheading text-muted" style="font-family:'Roboto'">
+            A Centuria Augusta tem uma hierarquia interna própria (que só tem
+            significado dentro da própria confraria, conforme descrito no Cap.
+            IX Parte 3 do Código de Praxe) distinta da hierarquia da academia
+            imposta pelo mesmo.
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/hierarquia/centuripila.jpg" alt="">
+            <h4 style="padding-bottom: 15px;">Centuripila</h4>
+            <p class="text-muted" style="font-family:'Roboto'">
+              Os Centuripilas são caloiros da confraria que, não sendo
+              considerados membros da mesma, participam nas atividades desta.
+              Estes elementos adquirem o saber que os Centuriões lhes vão
+              transmitindo ao longo do seu percurso enquanto Centuripila, de
+              modo a que posteriormente possam também eles mesmos tornarem-se
+              Centuriões.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/hierarquia/centuriao.png" alt="">
+            <h4 style="padding-bottom: 15px;">Centurião</h4>
+            <p class="text-muted" style="font-family:'Roboto'">
+              Os Centuriões constitutem o núcleo da confraria, encontrando-se
+              encarregues de garantir que o legado e o progresso da confraria se
+              mantenha exímio. Para além disso, é também sua função educar os
+              elementos de grau inferior, transmitindo-lhes valores praxísticos,
+              de modo a que estes reflitam o espírito vivido na confraria.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Traje -->
+  <section id="traje">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Traje da Universidade do Minho</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8">
+            <!-- <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt=""> -->
+            <h4 class="text-center">Traje Tricórnio</h4>
+            <p class="text-muted" style="font-family:'Roboto'">
+              Presidente da direção da Associação Académica da Universidade do
+              Minho (AAUM) entre 1988 e 1991, Luís Novais foi o responsável pela
+              introdução do atual traje na Academia Minhota. O traje atual foi
+              desenhado por uma estilista de braga, com base na descrição de
+              Ignácio Kosé Peixoto e nos painéis de azulejo do século XVIII que
+              existem na escadaria do paço episcopal bracarense, situado no
+              Largo do Paço, atual reitoria da Universidade do Minho. Para
+              diferenciar os estudantes trajados, foram criadas as insígnias,
+              isto é, as fitas de diversas cores e larguras que são colocadas
+              na manga direita do casaco, presas sob o emblema da AAUM ou da UM.
+              Este traje é conhecido como Tricórnio, devido ao chapéu de três
+              bicos que o compõe. É composto por sapatos pretos, com fivela;
+              meias pretas, lisas (de vidro para as senhoras); bermudas pretas
+              (para os homens) ou saia preta (para as senhoras); camisa branca
+              de gola alta e apertada pelas costas; casaco preto; capa preta;
+              tricórnio, conforme descrito na Parte 2 do Capítulo V do Código
+              de Praxe.
+          </p>
+        </div>
+        <div class="col-sm-4 marginauto">
+            <img src="img/traje/traje-tricornio.png" width="150" hspace="50" vspace="30">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row" style="padding-top: 50px;">
+        <div class="col-lg-8">
+            <h4 vspace="25">Alterações ao Traje Académico da Centuria Augusta</h4>
+            <p class="text-muted" style="font-family:'Roboto'" vspace="50">
+              Enquanto trajados, os vários grupos culturais, tunas e confrarias
+              possuem alterações ao traje. No caso da Centuria Augusta, a
+              alteração efetuada é o uso do cordão entrelaçado preto e prateado
+              à volta do ombro direito, fixado sob o emblema da Universidade do
+              Minho ou Associação Académica da Universidade do Minho.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <img class="mx-auto rounded-circle" allign="middle" src="img/traje/alteracoes-traje.png" width="250">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membros -->
+  <section class="bg-light" id="membros">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Membros da Centuria Augusta</h2>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4 text-center">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>AzeiteiroXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>PapoXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>PomboXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segunda Linha-->
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>TorpedoXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>DiCaprioXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>BeanoXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Terceira Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>StrikeXUM</h4>
+                <p class="text-muted">Fundador – 2001</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>Platy</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>ShotoXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quarta Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>TeneroXUM</h4>
+                <p class="text-muted">Fundador – 2001</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>PontuXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>TopeXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quinta Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>GattoXUM</h4>
+                <p class="text-muted">Fundador – 2001</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>SongokXUM</h4>
+            <p class="text-muted">Fundador – 2001</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>ErvilhoXUM</h4>
+            <p class="text-muted">2001/2002</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sexta Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>PiloXUM</h4>
+                <p class="text-muted">2003/2004</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>ZezecamaroXUM</h4>
+            <p class="text-muted">2003/2004</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>BilhoXUM</h4>
+            <p class="text-muted">2003/2004</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sétima Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>MangoXUM</h4>
+                <p class="text-muted">2003/2004</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>KremalheiroXUM</h4>
+            <p class="text-muted">2004/2005</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>VirginoXUM</h4>
+            <p class="text-muted">2004/2005</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oitava Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>AbobeleiroXUM</h4>
+                <p class="text-muted">2004/2005</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>MafioXUM</h4>
+            <p class="text-muted">2004/2005</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>JardoXUM</h4>
+            <p class="text-muted">2004/2005</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oitava Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>Sónia</h4>
+                <p class="text-muted">2005/2006</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>FiXUM</h4>
+            <p class="text-muted">2005/2006</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>BuezoXUM</h4>
+            <p class="text-muted">2006/2007</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nona Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>PensoXUM</h4>
+                <p class="text-muted">2006/2007</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>SpeedoXUM</h4>
+            <p class="text-muted">2006/2007</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>ReceitaroXUM</h4>
+            <p class="text-muted">2006/2007</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Primeira Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>AppendicoXUM</h4>
+                <p class="text-muted">2006/2007</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>DuvidoXUM</h4>
+            <p class="text-muted">2006/2007</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>AnaloXUM</h4>
+            <p class="text-muted">2006/2007</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Segunda Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>RoubadoXUM</h4>
+                <p class="text-muted">2006/2007</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>ZebinoXUM</h4>
+            <p class="text-muted">2006/2007</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>AlvarengoXUM</h4>
+            <p class="text-muted">2007/2008</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Terceira Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>MikoXUM</h4>
+                <p class="text-muted">2008/2009</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>GaioloXUM</h4>
+            <p class="text-muted">2008/2009</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>CoroXUM</h4>
+            <p class="text-muted">2008/2009</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Quarta Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>ChupoXUM</h4>
+                <p class="text-muted">2010/2011</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>PiçoXUM</h4>
+            <p class="text-muted">2010/2011</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>StartoXUM</h4>
+            <p class="text-muted">2010/2011</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Quinta Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>BigodoXUM</h4>
+                <p class="text-muted">2010/2011</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>UefoXUM</h4>
+            <p class="text-muted">2010/2011</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>FisoXUM</h4>
+            <p class="text-muted">2011/2012</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Quinta Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>UrsoXUM</h4>
+                <p class="text-muted">2011/2012</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>MutoXUM</h4>
+            <p class="text-muted">2011/2012</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>MacieiroXUM</h4>
+            <p class="text-muted">2011/2012</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Sexta Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>GarçoXUM</h4>
+                <p class="text-muted">2011/2012</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>LavradoXUM</h4>
+            <p class="text-muted">2011/2012</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>RebentadoXUM</h4>
+            <p class="text-muted">2012/2013</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Sétima Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>RegurjactoXUM</h4>
+                <p class="text-muted">2012/2013</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>MetaleiroXUM</h4>
+            <p class="text-muted">2012/2013</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>CiganoXUM</h4>
+            <p class="text-muted">2013/2014</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Oitava Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>PsydoXUM</h4>
+                <p class="text-muted">2013/2014</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>SmelloXUM</h4>
+            <p class="text-muted">2014/2015</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>MaterazzoXUM</h4>
+            <p class="text-muted">2014/2015</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Décima-Nona Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>RotundoXUM</h4>
+                <p class="text-muted">2015/2016</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>MadeiroXUM</h4>
+            <p class="text-muted">2015/2016</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>ParadoXUM</h4>
+            <p class="text-muted">2015/2016</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vigésima Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>RevoltoXUM</h4>
+                <p class="text-muted">2016/2017</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>RecrutoXUM</h4>
+            <p class="text-muted">2016/2017</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>TasqueiroXUM</h4>
+            <p class="text-muted">Imperador - 2017/2018</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vigésima-Primeira Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>PostoXUM</h4>
+                <p class="text-muted">2017/2018</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>LouvadoXUM</h4>
+            <p class="text-muted">2017/2018</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>ChefoXUM</h4>
+            <p class="text-muted">2017/2018</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vigésima-Segunda Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>SprintoXUM</h4>
+                <p class="text-muted">2017/2018</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>ReformadoXUM</h4>
+            <p class="text-muted">2018/2019</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>PicassoXUM</h4>
+            <p class="text-muted">2018/2019</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vigésima-Terceira Linha-->
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+                <h4>AfogadoXUM</h4>
+                <p class="text-muted">2019/2020</p>
+              </div>
+            </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/centurioes/Default.png" alt="">
+            <h4>SocialoXUM</h4>
+            <p class="text-muted">2019/2020</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style = "background-color:#212529">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright text-muted">Copyright &copy; Centuria Augusta 2019</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/centuria.augusta/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="https://drive.google.com/file/d/1XcWXLg1AlVp8odswtXpT8cZLVHnXEoFG/view">Código da Praxe</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://cabidodecardeais.blogspot.com">Cabido de Cardeais</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/centuria.min.js"></script>
+
+</body>
+
+</html>
