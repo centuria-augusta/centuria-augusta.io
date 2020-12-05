@@ -1,0 +1,12 @@
+networks:
+  - name: facebook
+    icon: fa-facebook-f
+    url: https://www.facebook.com/centuria.augusta/
+  - name: instagram
+    icon: fa-instagram
+    url: https://www.instagram.com/centuria.augusta/
+links:
+  - name: Código da Praxe
+    url: https://drive.google.com/file/d/1XcWXLg1AlVp8odswtXpT8cZLVHnXEoFG/view
+  - name: Cabido de Cardeais
+    url: https://cabidodecardeais.blogspot.com
