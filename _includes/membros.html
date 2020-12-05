@@ -1,0 +1,28 @@
+<!-- FAQ -->
+<section class="page-section" id="manifesto-init" style="padding-bottom: 50px;padding-top: 120px">
+	<div class="container">
+		<h2>Membros da Centuria Augusta</h2>
+		<div id="accordion" class="mt-5">
+			{% for ger in site.data.membros.geracoes %}
+				<div class="card mb-3">
+					<div class="card-header">
+						<a class="card-link collapsed" style="color: #0B0A0D; font-size: 1.1rem;" data-toggle="collapse" href="#collapse{{ger.id}}">
+							<b>{{ ger.nome }}</b>
+						</a>
+					</div>
+					<div id="collapse{{ger.id}}" class="collapse" data-parent="#accordion">
+						<div class="card-body" style="justify-content: center; align-items: center;">
+							{% for m in ger.membros %}
+						          <div class="team-member" >
+						            <img class="mx-auto rounded-circle" src="{{ m.foto }}" alt="">
+						            <h4>{{ m.nome }}</h4>
+						          </div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			  {% endfor %}			  
+		</div>
+	</div>
+</section>
+<!-- End FAQ -->

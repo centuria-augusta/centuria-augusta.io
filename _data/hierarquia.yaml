@@ -1,0 +1,22 @@
+sobre: A Centuria Augusta tem uma hierarquia interna própria (que só tem
+            significado dentro da própria confraria, conforme descrito no Cap.
+            IX Parte 3 do Código de Praxe) distinta da hierarquia da academia
+            imposta pelo mesmo.
+graus:
+  - id: 1
+    nome: "Centuriões"
+    foto: img/hierarquia/centuriao.png
+    desc: Os Centuriões constitutem o núcleo da confraria, encontrando-se
+              encarregues de garantir que o legado e o progresso da confraria se
+              mantenha exímio. Para além disso, é também sua função educar os
+              elementos de grau inferior, transmitindo-lhes valores praxísticos,
+              de modo a que estes reflitam o espírito vivido na confraria.
+  - id: 2
+    nome: "Centuripilas"
+    foto: img/hierarquia/centuripila.jpg
+    desc: Os Centuripilas são caloiros da confraria que, não sendo
+              considerados membros da mesma, participam nas atividades desta.
+              Estes elementos adquirem o saber que os Centuriões lhes vão
+              transmitindo ao longo do seu percurso enquanto Centuripila, de
+              modo a que posteriormente possam também eles mesmos tornarem-se
+              Centuriões.
