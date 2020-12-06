@@ -2,7 +2,7 @@ main: Formada a 19 de dezembro de 2001, a Centuria Augusta é uma confraria de P
 sobre_title: Sobre Nós
 sobre:
   - title: Origem
-    icon: img/icons/sobre-nos.png
+    icon: fa-book
     text: A Centuria Augusta
             é uma confraria da Academia Minhota que zela pelos valores da Praxe
             da mesma. Conta com membros provenientes de vários cursos da
@@ -10,7 +10,7 @@ sobre:
             grau hierárquico desde que este compartilhe dos mesmos ideais e
             princípios que regem toda a ideologia da confraria. 
   - title: Bebida de Eleição
-    icon: img/icons/bebida.png
+    icon: fa-wine-bottle
     text: Com mais de 130
             anos de história, dotada de um conjunto de caraterísticas ímpares,
             a Macieira tem acompanhado as várias gerações ao longo dos anos.
@@ -23,7 +23,7 @@ sobre:
             inseparável de todos os momentos, a Macieira tornou-se num dos
             pilares da Centuria Augusta. 
   - title: A Nossa Casa
-    icon: img/icons/casa.png
+    icon: fa-home
     text: A nossa casa, a Universidade do Minho, foi fundada em 1973, num
             plano que consagrou várias novas instituições de ensino superior
             pelo país. A cerimónia de abertura só se deu, contudo, um ano

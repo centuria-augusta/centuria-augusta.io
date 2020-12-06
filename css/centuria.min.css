@@ -171,7 +171,9 @@ header.masthead {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
-	background-size: cover
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
 }
 
 header.masthead .intro-text {
@@ -644,6 +646,9 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  position: relative;
+  bottom: 0;
+  background-color:rgba(0,0,0,0.9);
 }
 
 footer span.copyright {
@@ -683,4 +688,13 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
 	background-color: #fed136
+}
+
+
+.content {
+	min-height: 100vh;
+}
+
+.text-muted{
+	text-align: justify;
 }
