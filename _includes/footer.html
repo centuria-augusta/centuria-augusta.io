@@ -1,29 +1,23 @@
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <span class="copyright text-muted">Copyright &copy; Centuria Augusta {{ 'now' | date: "%Y" }}</span>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
-          {% for net in site.data.social.networks %}
-            <li class="list-inline-item">
-              <a href="{{ net.url }}">
-                <i class="fab {{ net.icon }}"></i>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          {% for link in site.data.social.links %}
-            <li class="list-inline-item">
-              <a href="{{ link.url }}">{{ link.name }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+  <div style="display: table; position: absolute;top: 0;left: 0;height: 100%;width: 100%;">
+    <div style="display: table-cell;vertical-align: middle; width: 100%;align-content: center;">
+      <span class="copyright text-muted">Copyright &copy; Centuria Augusta {{ 'now' | date: "%Y" }}</span>
+      <ul class="list-inline social-buttons">
+        {% for net in site.data.social.networks %}
+          <li class="list-inline-item">
+            <a href="{{ net.url }}">
+              <i class="fab {{ net.icon }}"></i>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+      <ul class="list-inline quicklinks">
+        {% for link in site.data.social.links %}
+          <li class="list-inline-item">
+            <a href="{{ link.url }}">{{ link.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </footer>
