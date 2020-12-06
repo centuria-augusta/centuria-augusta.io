@@ -46,5 +46,11 @@
   $('.portfolio-modal').on('hidden.bs.modal', function(e) {
     $('.navbar').removeClass('d-none');
   })
+})(jQuery);
 
-})(jQuery); // End of use strict
+(function(){ 
+   var navMain = $(".navbar-collapse"); 
+   navMain.on("click", "a:not([data-toggle])", null, function () {
+       navMain.collapse('hide');
+   });
+});
