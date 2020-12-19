@@ -724,6 +724,9 @@ ul.social-buttons li a:hover {
 
 .text-muted{
 	text-align: justify;
+	padding-left: 30px;
+	padding-right: 35px;
+}
 }
 
 .card-header{
