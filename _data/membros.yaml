@@ -43,13 +43,13 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: MCC
   - id: 2
-    nome: "II geração: 2002"
+    nome: "II Geração: 2002"
     membros:
       - nome: ErvilhoXUM
         foto: img/hierarquia/centuriao.png
         curso: LESI
   - id: 3
-    nome: "III geração: 2004"
+    nome: "III Geração: 2004"
     membros:
       - nome: PiloXUM
         foto: img/hierarquia/centuriao.png
@@ -64,7 +64,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: Geologia
   - id: 4
-    nome: "IV geração: 2005"
+    nome: "IV Geração: 2005"
     membros:
       - nome: KremalheiroXUM
         foto: img/hierarquia/centuriao.png
@@ -82,7 +82,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LESI
   - id: 5
-    nome: "V geração: 2006"
+    nome: "V Geração: 2006"
     membros:
       - nome: Sónia
         foto: img/hierarquia/centuriao.png
@@ -121,13 +121,13 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LESI
   - id: 7
-    nome: "VII geração: 2008"
+    nome: "VII Geração: 2008"
     membros:
       - nome: AlvarengoXUM
         foto: img/hierarquia/centuriao.png      
         curso: LESI
   - id: 8
-    nome: "VIII geração: 2009"
+    nome: "VIII Geração: 2009"
     membros:
       - nome: MikoXUM
         foto: img/hierarquia/centuriao.png
