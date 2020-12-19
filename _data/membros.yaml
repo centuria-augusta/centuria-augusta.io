@@ -185,14 +185,14 @@ geracoes:
         foto: img/centurioes/ChefoXUM.png
       - nome: SprintoXUM
         foto: img/centurioes/SprintoXUM.png
- - id: 17
+  - id: 17
     nome: "Décima Sétima Geração: 2019"
     membros:
       - nome: ReformadoXUM
         foto: img/centurioes/ReformadoXUM.png
       - nome: PicassoXUM
         foto: img/centurioes/PicassoXUM.png
-- id: 18
+  - id: 18
     nome: "Décima Oitava Geração: 2020"
     membros:
       - nome: AfogadoXUM
