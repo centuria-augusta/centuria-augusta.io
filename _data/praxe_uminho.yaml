@@ -26,3 +26,27 @@ traje:
               à volta do ombro direito, fixado sob o emblema da Universidade do
               Minho ou Associação Académica da Universidade do Minho.
 codigo:
+  title: Código da Praxe 
+  text: "O Código da Praxe da Academia Minhota terá surgido há algumas décadas e tem
+        sofrido alterações, acompanhando a evolução da sociedade e, consequentemente,
+        da própria Praxe. Uma característica que o distingue dos documentos análogos
+        que vigoram em outras academias é a valorização do bom-senso como a regra que
+        deve prevalecer na Praxe. <br><br>
+        Assim, disponibilizamos algumas versões do Código da Praxe
+        que recolhemos ao longo dos anos para que possamos analizar essa mesma evolução:"
+  img: img/codigo.png
+  codigos:
+    - title: Antigo
+      url: https://drive.google.com/file/d/0B5fv3ATHDZ3HNmZ2T2lkQWF2aXM/view?usp=sharing
+    - title: 2000
+      url: https://drive.google.com/file/d/0BxOSZ96OQ-ksaUJSNUVKVFp2aUk/view?usp=sharing
+    - title: 2006
+      url: https://drive.google.com/file/d/0BxOSZ96OQ-ksSDVUVkZYWEJjYW8/view?usp=sharing
+    - title: 2009
+      url: https://drive.google.com/file/d/0BxOSZ96OQ-ksbHhQTWdldGN0R3c/view?usp=sharing
+    - title: Outro
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    - title: Mais Outro
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    - title: Atual
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ

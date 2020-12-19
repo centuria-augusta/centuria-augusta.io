@@ -14,12 +14,14 @@ title: Centuria Augusta - Membros
             </a>
           </div>
           <div id="collapse{{ger.id}}" class="collapse" data-parent="#accordion">
-            <div class="card-body" style="justify-content: center; align-items: center;">
+            <div class="card-body" style="text-align: center;">
               {% for m in ger.membros %}
-                      <div class="team-member" >
-                        <img class="mx-auto rounded-circle" src="{{ m.foto }}" alt="" style="box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);">
-                        <h4>{{ m.nome }}</h4>
-                      </div>
+                <div class="team-member">
+                  <img class="mx-auto rounded-circle" src="{{ m.foto }}" alt="" style="box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);">
+                  <br>
+                  <h6>{{ m.nome }}</h6>
+                  <h8 style="color: #6c757d!important">{{ m.curso }}</h8>
+                </div>
               {% endfor %}
             </div>
           </div>
