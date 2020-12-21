@@ -2,10 +2,10 @@ title: CENTURIA AUGUSTA
 logo: img/logos/centuria.png
 links:
   - title: Sobre Nós
-    url: /#sobre
+    url: \#sobre
   - title: Praxe na UMinho
-    url: /praxe_uminho
+    url: praxe_uminho
   - title: Hierarquia
-    url: /hierarquia
+    url: hierarquia
   - title: Membros
-    url: /membros
+    url: membros
