@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand js-scroll-trigger ml-auto" href="/" style="font-size:100%">
-      <img width="30" src="{{ site.data.nav.logo }}" hspace="10" />
+      <img width="30" src="{{ site.baseurl }}/{{ site.data.nav.logo }}" hspace="10" />
       {{ site.data.nav.title }}
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +12,7 @@
       <ul class="navbar-nav text-uppercase ml-auto">
         {% for link in site.data.nav.links %}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ link.url }}"> {{ link.title }} </a>
+            <a class="nav-link" href="{{ site.baseurl }}/{{ link.url }}"> {{ link.title }} </a>
           </li>
         {% endfor %}
       </ul>
