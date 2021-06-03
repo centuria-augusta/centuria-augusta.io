@@ -263,3 +263,19 @@ geracoes:
       - nome: SocialoXUM
         foto: img/hierarquia/centuriao.png
         curso: Sociologia
+  - id: 19
+    nome: "XIX Geração: 2021"
+    membros:
+      - nome: ColadoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: MIEI
+      - nome: CordialoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: MIEI
+      - nome: EscravoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: MIEI
+      - nome: EsticoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: MIEI
+  
