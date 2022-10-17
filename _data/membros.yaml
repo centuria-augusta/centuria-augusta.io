@@ -278,4 +278,24 @@ geracoes:
       - nome: EsticoXUM
         foto: img/hierarquia/centuriao.png
         curso: MIEI
-  
+  - id: 20
+    nome: "XX Geração: 2022"
+    membros:
+      - nome: SujoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: MIEI
+      - nome: TrocatintoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: Arqueologia
+      - nome: CaladoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: RI
+      - nome: EngodoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: MIEI
+  - id: 21
+    nome: "XXI Geração: 2023"
+    membros:
+      - nome: BarboXUM
+        foto: img/hierarquia/centuriao.png
+        curso: Biologia e Geologia  
