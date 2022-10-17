@@ -4,3 +4,4 @@ Gemfile
 Gemfile.lock
 vendor/
 .jekyll-cache/
+.jekyll-cache/*
