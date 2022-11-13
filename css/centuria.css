@@ -739,3 +739,14 @@ ul.social-buttons li a:hover {
 .card{
 	border: none;
 }
+
+.nav>li>a.active,
+.nav>li>a:focus {
+   background-color: #000000 !important;
+   color: #fec503 !important;
+}
+
+.nav>li>a:hover {
+	 background-color: #666666 !important;
+   color: #fec503 !important;
+}
