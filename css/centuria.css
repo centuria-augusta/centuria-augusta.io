@@ -36,6 +36,7 @@ section {
 }
 
 section h2.section-heading {
+	font-family: 'Trajan';
 	font-size: 40px;
 	margin-top: -40px;
 	margin-bottom: 30px
@@ -148,11 +149,13 @@ img::-moz-selection {
 		border: none;
 	}
 	#mainNav .navbar-brand {
+		font-family: 'Trajan';
 		font-size: 1.75em;
 		-webkit-transition: all .3s;
 		transition: all .3s
 	}
 	#mainNav .navbar-nav .nav-item .nav-link {
+		font-family: 'Trajan';
 		padding: 1.1em 1em!important
 	}
 	#mainNav.navbar-shrink {
@@ -738,6 +741,7 @@ ul.social-buttons li a:hover {
 
 .card{
 	border: none;
+	font-family: 'Trajan';
 }
 
 .nav>li>a.active,
