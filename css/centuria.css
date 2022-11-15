@@ -1,6 +1,6 @@
 body {
 	overflow-x: hidden;
-	font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+	font-family: 'Trajan','Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
 p {
@@ -749,4 +749,9 @@ ul.social-buttons li a:hover {
 .nav>li>a:hover {
 	 background-color: #666666 !important;
    color: #fec503 !important;
+}
+
+.column {
+	width:300px;
+	float:left
 }
