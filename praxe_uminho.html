@@ -16,9 +16,15 @@ title: Centuria Augusta - Praxe na UMinho
             {{ site.data.praxe_uminho.traje.text }}
           </p>
       </div>
-      <div class="col-sm-4 marginauto" style="align-content: center;">
-          <img src="{{ site.data.praxe_uminho.traje.img }}" width="150" hspace="50" vspace="30">
+      <div id="my-interactive-image" style="align-content: center;">
+          <!-- <img src="{{ site.data.praxe_uminho.traje.img }}" width="150" hspace="50" vspace="30"> -->
       </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="js/interactive-image.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/interactiveimagejs@2.7.1/dist/interactive-image.min.js"></script>
+      
+
+
     </div>
 
     <hr>
@@ -30,7 +36,7 @@ title: Centuria Augusta - Praxe na UMinho
             {{ site.data.praxe_uminho.traje.alteracoes.text }}
           </p>
       </div>
-      <div class="col-sm-4 marginauto" style="align-content: center;">
+      <div class="col-sm-4 marginauto" style="align-content: center;position: initial">
           <img class="mx-auto rounded-circle" allign="middle" src="{{ site.data.praxe_uminho.traje.alteracoes.img }}" width="250">
       </div>
     </div>

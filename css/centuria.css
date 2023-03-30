@@ -176,7 +176,7 @@ header.masthead {
 	background-attachment: scroll;
 	background-position: center center;
 	background-size: cover;
-	height: 100vh;
+	/* height: 100vh; */
 	width: 100vw;
 }
 
@@ -757,3 +757,15 @@ ul.social-buttons li a:hover {
 	width:300px;
 	float:left
 }
+
+.interactive-image {
+	margin: auto;
+	width: 380px;
+	height: 390px;
+	background-image: url('/img/traje/traje-tricornio-mf.png');
+	background-size: 100%;
+}
+.interactive-image .hotspot{
+	color: #757575
+}
+

@@ -299,4 +299,13 @@ geracoes:
     membros:
       - nome: BarboXUM
         foto: img/hierarquia/centuriao.png
-        curso: Biologia e Geologia  
+        curso: Biologia e Geologia 
+      - nome: CoitadoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: MIEI
+      - nome: UberoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: MIEI
+      - nome: CaponoXUM
+        foto: img/hierarquia/centuriao.png
+        curso: Criminologia
