@@ -43,13 +43,13 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: MCC
   - id: 2
-    nome: "II Geração: 2002"
+    nome: "II Geração: 2001/2002"
     membros:
       - nome: ErvilhoXUM
         foto: img/hierarquia/centuriao.png
         curso: LESI
   - id: 3
-    nome: "III Geração: 2004"
+    nome: "III Geração: 2003/2004"
     membros:
       - nome: PiloXUM
         foto: img/hierarquia/centuriao.png
@@ -64,7 +64,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: Geologia
   - id: 4
-    nome: "IV Geração: 2005"
+    nome: "IV Geração: 2004/2005"
     membros:
       - nome: KremalheiroXUM
         foto: img/hierarquia/centuriao.png
@@ -82,7 +82,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LESI
   - id: 5
-    nome: "V Geração: 2006"
+    nome: "V Geração: 2005/2006"
     membros:
       - nome: Sónia
         foto: img/hierarquia/centuriao.png
@@ -91,7 +91,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LESI
   - id: 6
-    nome: "VI Geração: 2007"
+    nome: "VI Geração: 2006/2007"
     membros:
       - nome: BuezoXUM
         foto: img/hierarquia/centuriao.png
@@ -121,13 +121,13 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LESI
   - id: 7
-    nome: "VII Geração: 2008"
+    nome: "VII Geração: 2007/2008"
     membros:
       - nome: AlvarengoXUM
         foto: img/hierarquia/centuriao.png      
         curso: LESI
   - id: 8
-    nome: "VIII Geração: 2009"
+    nome: "VIII Geração: 2008/2009"
     membros:
       - nome: MikoXUM
         foto: img/hierarquia/centuriao.png
@@ -139,7 +139,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LESI
   - id: 9
-    nome: "IX Geração: 2011"
+    nome: "IX Geração: 2010/2011"
     membros:
       - nome: ChupoXUM
         foto: img/hierarquia/centuriao.png
@@ -157,7 +157,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LEI
   - id: 10
-    nome: "X Geração: 2012"
+    nome: "X Geração: 2011/2012"
     membros:
       - nome: FisoXUM
         foto: img/hierarquia/centuriao.png
@@ -178,7 +178,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LEI
   - id: 11
-    nome: "XI Geração: 2013"
+    nome: "XI Geração: 2012/2013"
     membros:
       - nome: RebentadoXUM
         foto: img/hierarquia/centuriao.png
@@ -190,7 +190,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LEI
   - id: 12
-    nome: "XII Geração: 2014"
+    nome: "XII Geração: 2013/2014"
     membros:
       - nome: CiganoXUM
         foto: img/hierarquia/centuriao.png
@@ -199,7 +199,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: Enfermagem
   - id: 13
-    nome: "XIII Geração: 2015"
+    nome: "XIII Geração: 2014/2015"
     membros:
       - nome: SmelloXUM
         foto: img/hierarquia/centuriao.png
@@ -208,7 +208,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LEI
   - id: 14
-    nome: "XIV Geração: 2016"
+    nome: "XIV Geração: 2015/2016"
     membros:
       - nome: RotundoXUM
         foto: img/hierarquia/centuriao.png
@@ -220,7 +220,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: LEI
   - id: 15
-    nome: "XV Geração: 2017"
+    nome: "XV Geração: 1016/2017"
     membros:
       - nome: RevoltoXUM
         foto: img/hierarquia/centuriao.png
@@ -229,7 +229,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: Química
   - id: 16
-    nome: "XVI Geração: 2018"
+    nome: "XVI Geração: 2017/2018"
     membros:
       - nome: TasqueiroXUM
         foto: img/hierarquia/centuriao.png
@@ -247,7 +247,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: História
   - id: 17
-    nome: "XVII Geração: 2019"
+    nome: "XVII Geração: 2018/2019"
     membros:
       - nome: ReformadoXUM
         foto: img/hierarquia/centuriao.png
@@ -256,7 +256,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: MIEI
   - id: 18
-    nome: "XVIII Geração: 2020"
+    nome: "XVIII Geração: 2019/2020"
     membros:
       - nome: AfogadoXUM
         foto: img/hierarquia/centuriao.png
@@ -265,7 +265,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: Sociologia
   - id: 19
-    nome: "XIX Geração: 2021"
+    nome: "XIX Geração: 2020/2021"
     membros:
       - nome: ColadoXUM
         foto: img/hierarquia/centuriao.png
@@ -280,7 +280,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: MIEI
   - id: 20
-    nome: "XX Geração: 2022"
+    nome: "XX Geração: 2021/2022"
     membros:
       - nome: SujoXUM
         foto: img/hierarquia/centuriao.png
@@ -295,7 +295,7 @@ geracoes:
         foto: img/hierarquia/centuriao.png
         curso: MIEI
   - id: 21
-    nome: "XXI Geração: 2023"
+    nome: "XXI Geração: 2022/2023"
     membros:
       - nome: BarboXUM
         foto: img/hierarquia/centuriao.png
@@ -308,4 +308,4 @@ geracoes:
         curso: MIEI
       - nome: CaponoXUM
         foto: img/hierarquia/centuriao.png
-        curso: Criminologia
+        curso: Criminologia e Justiça Criminal

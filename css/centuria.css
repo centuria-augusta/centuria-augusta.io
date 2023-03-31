@@ -593,7 +593,8 @@ header.masthead .intro-text .intro-heading {
 .team-member {
 	margin-bottom: 50px;
 	text-align: center;
-	display: inline-block; 
+	/* display: inline-block;  */
+	display: inline-table;
 	padding: 15px; 
 	width: 200px;
 }
