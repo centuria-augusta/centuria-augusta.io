@@ -5,59 +5,52 @@ title: Centuria Augusta - Blog
 <section class="page-section" id="manifesto-init" style="padding-bottom: 50px;padding-top: 120px">
   <div class="container">
 
-    <!-- Nav tabs with classes -->
-  <ul class="nav nav-pills mb-3" role="tablist">
-  {% for opt in site.data.blog.options %}
-  	{% if opt.id == 1 %}
-  	<li class="nav-item"><a class="nav-link active" href=".{{opt.url}}" role="tab" data-toggle="tab" >{{opt.title}}</a></li>
-  	{% else %}
-  	<li class="nav-item"><a class="nav-link" href=".{{opt.url}}" role="tab" data-toggle="tab" >{{opt.title}}</a></li>
-  	{% endif %}
-  {% endfor %}
-  </ul>
+    <div class="tabs">
+      <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
+      <label for="tab1" class="tabs__label">Updates</label>
+      <div class="tabs__content">
+        {% for post in site.categories.events %}
+        <div class="card mb-3 card-header">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <h6>{{ post.date | date_to_string }}</h6>
+          <p class="text-muted">
+              {{ post.excerpt }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
 
-	<!-- Tab panes with classes-->
-	<div class="tab-content">
-	  <div class="tab-pane active updates">
-	    <h2>Últimos Posts</h2>
-			{% for post in site.categories.events %}
-		  <div class="card mb-3 card-header">
-		    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		    <h6>{{ post.date | date_to_string }}</h6>
-		    <p class="text-muted">
-	          {{ post.excerpt }}
-	    	</p>
-		  </div>
-			{% endfor %}
-	  </div>
-	  <div class="tab-pane documents">
-	    <h2>Documentos</h2>
-			{% for doc in site.categories.documents %}
-			<div class="card mb-3 card-header">
-		    <h3><a href="{{ doc.url }}">{{ doc.title }}</a></h3>
-		    <h6>{{ doc.date | date_to_string }}</h6>
-		    <p class="text-muted">
-	          {{ doc.excerpt }}
-	    	</p>
-		  </div>
-			{% endfor %}
-	  </div>
-	  <div class="tab-pane gallery">
-	  	<h2>Galeria</h2>
-			{% for doc in site.categories.documents %}
-			<div class="card mb-3 card-header">
-		    <h3><a href="{{ doc.url }}">Example</a></h3>
-		    <h6>{{ doc.date | date_to_string }}</h6>
-		    <p class="text-muted">
-	          Fotos
-	    	</p>
-		  </div>
-			{% endfor %}
-			</div>
-	</div>
+      <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
+      <label for="tab2" class="tabs__label">Documentos</label>
+      <div class="tabs__content">
+        {% for doc in site.categories.documents %}
+        <div class="card mb-3 card-header">
+          <h3><a href="{{ doc.url }}">{{ doc.title }}</a></h3>
+          <h6>{{ doc.date | date_to_string }}</h6>
+          <p class="text-muted">
+              {{ doc.excerpt }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <input type="radio" class="tabs__radio" name="tabs-example" id="tab3">
+      <label for="tab3" class="tabs__label">Galeria</label>
+      <div class="tabs__content">
+        {% for doc in site.categories.documents %}
+        <div class="card mb-3 card-header">
+          <h3><a href="{{ doc.url }}">Example</a></h3>
+          <h6>{{ doc.date | date_to_string }}</h6>
+          <p class="text-muted">
+              Fotos
+          </p>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
 
 
 
-
+    </div>
   </div>
 </section>
